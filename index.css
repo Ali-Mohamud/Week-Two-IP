@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@100;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.box-1 {
+    background-image: url(hero1.jpg);
+    height: 1080px;
+    width: 1920px;
+}
+
+header {
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-around;
+}
+
+.name {
+    color: white;
+
+}
+
+
+
+.navs {
+    list-style: none;
+
+}
+
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none ;
+
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    color: whitesmoke;
+}
+
+.login {
+
+
+    color: whitesmoke;
+}
+
+.member {
+    padding: 1em;
+    margin-right: 9em;
+    background-color: rgb(29, 174, 223);
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5.1em;
+    word-spacing: 0.5em;
+    font-size: 4em;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.1em;
+
+}
+
+.scale {
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    margin-top: 2.5em;
+    letter-spacing: 0.1em;
+}
+
+
+.buttons {
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+
+#quote {
+    padding: 0.9em;
+    border: none;
+    color: white;
+    border-radius: 1em;
+    background-color:#23a6f0;
+}
+
+
+
+#learn {
+    padding: 0.8em;
+    border: solid 0.1em;
+    border-radius: 1em;
+    background-color: transparent;
+    color: white;
+
+}
+
+
+.mini-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+
+.minibox-1 {
+
+    border: solid white 0.1em;
+    padding: 2em;
+    background-color: white;
+
+
+}
+
+.minibox-2 {
+    border: solid white 0.1em;
+    padding: 2em;
+    background-color: white;
+}
+
+
+.minibox-3 {
+    border: solid none;
+    padding: 2em;
+    background-color:#23a6f0;
+    color: white;
+}
+
+#people {
+    font-size: xx-large;
+    color:#23a6f0;
+
+}
+
+#people-2 {
+    font-size: xx-large;
+    color: white;
+
+}
+
+.quick {
+    margin-top: 0.5;
+}
+
+
+.second-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15em;
+
+}
+
+.second-box-1 {
+    
+    padding: 2em;
+
+}
+
+.second-box-2 {
+    border: none;
+    padding: 2em;
+
+}
+
+
+.second-box-3 {
+    border: solid none;
+    padding: 2em;
+
+
+}
+
+#people {
+    margin-bottom: 0.3em;
+    font-size: 5em;
+    color:  #23a6f0;
+
+}
+
+#people-2 {
+    margin-bottom: 0.3em;
+    font-size: 5em;
+    color: white
+}
+
+#people-3 {
+    margin-bottom: 0.3em;
+    font-size: 5em;
+    color:#23a6f0    
+
+
+}
+
+
+#bookmark {
+    margin-bottom: 0.3em;
+    font-size: 5em;
+    color: #23a6f0;
+
+
+}
+
+.third-box {
+    margin-top: 13em;
+    background-color: #fafafa;
+    height: 330em;
+}
+
+.industry {
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.classical {
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10em;
+
+}
+
+
+.profile-1,
+.profile-2,
+.profile-3 {
+    border: solid lightgray 1px;
+    border-radius: 5px;
+    padding: 4em;
+    background-color: white;
+}
+
+
+.star {
+    margin-top: 0.7em;
+    font-size: 1.5em;
+    color: gold;
+    text-align: center;
+}
+
+
+
+#user-1,
+#user-2,
+#user-3 {
+    height: 220px;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 20em;
+
+}
+
+.subscribtion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    background: rgb(30, 16, 75);
+    background: linear-gradient(90deg, rgba(30, 16, 75, 1) 0%, rgba(33, 10, 101, 1) 51%, rgba(170, 14, 109, 1) 77%);
+    height: 10em;
+    margin-left: 7em;
+    margin-right: 5em;
+
+}
+
+.subscribe{
+    color: white;
+    padding-top: 2.3em;
+    font-size: 1.5em;
+    margin-right: 30em;
+}
+
+.label{
+    padding-top: 3.2em;
+
+}
+
+#email{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1.6em 10em 1.6em 1em;
+    border: none;
+    border-radius: 0.8em;
+}
+
+.email-button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1.5em;
+    border: none;
+    border-radius: 0.6em;
+    background-color:#23a6f0;
+    color: white;
+}
+
+
+.price{
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.resolve{
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+.pricing-boxes{
+    margin-top: 10em;
+    display: flex;
+    justify-content:center ;
+   
+}
+
+
+.price-box1{
+    
+    padding: 7em 5em;
+    border: #23a6f0  0.15em solid;
+    border-radius: 0.5em;
+}
+
+
+.price-box2{
+    padding: 7em 5em;
+    border:#23a6f0 0.15em solid;
+    border-radius: 0.5em;
+    background-color: #252b42;
+    color: white
+}
+
+
+.price-box3{
+    padding: 7em 5em;
+    border: #23a6f0  0.15em solid;
+    border-radius: 0.5em;
+}
+
+.per-month{
+    font-size: 0.4em;
+}
+
+
+
+
+.h2{
+    font-size: 2em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+.organize{
+    font-size: 1.5em;
+    word-spacing: 0.3em;
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+
+.zero{
+    font-size: 4em;
+    color:#23a6f0;
+}
+
+
+.check{
+    font-size: 3em;
+    color: green;
+    margin-top: 0.3em;
+}
+
+.check-2{
+    font-size: 3em;
+    color: grey;
+    margin-top: 0.3em;
+
+}
+
+
+
+.unlimited{
+   font-size: 1em;
+   margin-top: 2em;
+   margin-right: 3em;
+}
+
+
+
+.green-check{
+    display: flex;
+}
+
+
+.grey-check{
+    display: flex;
+}
+
+
+.try{
+    margin-top: 6em;
+    padding: 2em 10em 2em 8em;
+    border: none;
+    border-radius: 1em;
+    font-size: 1em;
+    word-spacing: 0.3em;
+    font-weight: 700;
+    color: white;
+    background-color: #23a6f0;
+}
+
+
+.branches{
+    display: flex;
+    justify-content: space-around;
+    background-color: #252b42;
+    color: white;
+    padding-top: 5em;
+    margin-top: 10em;
+    height: 50em;
+}
+
+.branch-heading{
+    font-size: 2em;
+    word-spacing: 0.5em;
+    font-weight: 300px;
+}
+
+
+.branch-description{
+    margin-top: 3em;
+    color: white;
+}
+
+
+.contact-cover{
+    display: flex;
+    justify-content: center;
+}
+
+.appointmeint{
+    background-color: white;
+    padding: 2em 2.5em;
+}
+
+
+
+.appoint{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+input{
+    border: solid 0.1em lightgray;
+    border-radius: 0.3em;
+    padding: 1.3em 30em 1.3em 0.5em;
+    background-color:#fafafa;
+}
+
+select{
+    padding: 1em 36em 1em 0;
+    border: solid 0.1em lightgray;
+    border-radius: 0.3em;
+    background-color:#fafafa;
+
+}
+
+.submitt-button{
+    background-color: #23a6f0 ;   
+    color: white;
+    margin-top: 5em;
+    padding: 1.3em 16em;
+    font-size: 1em;
+    border: none;
+    border-radius: 0.8em;
+    color: white;
+}
+
+
+.book{
+    font-size: 1em;
+    padding-left:2em;
+}
+
+
+
+
+.tm, .dep, .eml{
+    margin-top: 2em;
+}
+
+.consulting-box{
+    padding-top: 15em;
+    padding-right: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fox{
+    margin-top: 1em;
+}
+
+
+.us{
+    padding: 1.3em 3.3em;
+    font-size: 1em;
+    border: none;
+    border-radius: 0.8em;
+    color: white;
+    background-color: 
+    #23a6f0;    
+    
+}
+
+
+.company-details{
+    padding-top: 7em;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h4{
+    margin-bottom: 1em;
+    font-weight: 900;
+}
+
+
+p{
+ font-weight: small;
+}
+
+
+
+.contacts{
+    display: flex;
+}
+
+
+.call, .location, .mail{
+    font-size: 2em;
+    color: 
+    #23a6f0;
+}
+
+.design{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+    height: 5em;
+    padding-top: 2em;
+}
+
+.fb, .ig, .twit{
+    font-size: 1.5em;
+    color: 
+    #23a6f0;
+}
+
+
+footer{
+    padding-top: 5em;
+}
+
+
+@media (max-width: 768px) {
+    .industry, 
+    #user-1,
+    #user-2,
+    #user-3 {
+        display: block;
+        text-align: center;
+        width: 100%;
+        }
+        .box-1, .navs, a, li, .icons{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        .second-boxes, .third-box, .pricing-boxes,.submitt-button{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        .price-box1, .price-box2, .price-box3{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        .subscribtion, .label{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        .branches, .contact-cover, .company-details, .consulting-box{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        .contacts, footer{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        }
+

@@ -2,9 +2,10 @@
 This is a landing page of insurance website.
  
 ## Table of content
-+ [Description] (#description)
 
-+ [Installation Requirement] (#Installation)
++ [Description](#description)
+
++ [Installation Requirement](#Installation)
 
 + [Technology Used] (#technology-used)
 

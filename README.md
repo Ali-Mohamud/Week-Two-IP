@@ -7,12 +7,12 @@ This is a landing page of insurance website.
 
 + [Installation Requirement](#Installation)
 
-+ [Technology Used] (#technology-used)
++ [Technology Used](#technology-used)
 
 
-+ [Licence] (#licence)
++ [Licence](#licence)
 
-+ [Author info] (#author-info)
++ [Author info](#author-info)
 
 
 
